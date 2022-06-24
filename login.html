@@ -16,18 +16,36 @@
 
   <main>
     <section>
-      <div class="area">
-        <div class="login">
-          <form>
-            <h1>Login</h1>
-            <label class="label">Email</label> <br>
-            <input type="email" placeholder="Digite seu email" required autofocus="" class="input"> <br>
-            <label class="label">Senha</label> <br>
-            <input type="password" placeholder="Digite sua senha" required class="input"><br>
-            <input type="submit" id="botaoLogin" class="btn btn-primary" value="Login">
-          </form>
-        </div>
+      <div class="login">
+        <form>
+          <h1>Login</h1>
+          <div class="divInput">
+            <input type="email" placeholder="Email" required autofocus="" class="input" class="hoverInput"> <br>
+            <img src="assests/imagens/cadeado.jpg" alt="" id="imgSenha">
+            <input type="password" placeholder="Senha" required class="input" class="hoverInput"> <br>
+          </div>
+        </form>
+
+
+        <input type="submit" id="botaoLogin" class="btn btn-primary" value="Continuar">
+        <p>ou</p>
+        <button class="botaoFacebook"> <img src="assests/imagens/facebook (2).png" alt="" width="25" height="25">
+          Continuar
+          com
+          Facebook</button> <br>
+        <button class="botaoGoogle"> <img src="assests/imagens/download.png" alt="" width="25" height="25">
+          Continuar
+          com
+          Google</button> <br>
+        <button class="botaoApple" id="textoApple"> <img src="assests/imagens/apple-logo.png" alt="" width="25"
+            height="25" id="imgApple">
+          Continuar com Apple
+        </button> <br>
+        <a href="" class="a">Não tem uma conta? Cadastre-se!</a>
+
+
       </div>
+
     </section>
 
 
